@@ -461,3 +461,8 @@
   </script>
 </body>
 </html>
+import { startAuthorization } from '@vercel/connect';
+
+startAuthorization('github/meuprimeirodate-2027', {
+  subject: { type: "user", id: "usr_123" }
+}); .
